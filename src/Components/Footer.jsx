@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react';
-import { GlobalContext } from '../context/GlobalContext'; 
+import { GlobalContext } from './utils/global.context'; 
 
 
 const Footer = () => {

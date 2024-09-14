@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { GlobalContext } from '../context/GlobalContext';
+import { GlobalContext } from './utils/global.context';
 
 const Card = ({ dentist }) => {
   const { theme } = useContext(GlobalContext);

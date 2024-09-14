@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlobalProvider } from './context/GlobalContext';  
+import { GlobalProvider } from './Components/utils/global.context';  
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

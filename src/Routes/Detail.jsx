@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import { GlobalContext } from '../context/GlobalContext';
+import { GlobalContext } from '../Components/utils/global.context';
 
 const Detail = () => {
   const { theme } = useContext(GlobalContext);
